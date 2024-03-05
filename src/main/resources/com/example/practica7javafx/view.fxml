@@ -31,7 +31,9 @@
       <TextField fx:id="tfUsuario" layoutX="742.0" layoutY="149.0" />
       <Button fx:id="btnIniciar" layoutX="742.0" layoutY="200.0" mnemonicParsing="false" onAction="#Iniciar" prefHeight="25.0" prefWidth="149.0" text="Iniciar" />
       <ImageView fx:id="ivFoto" fitHeight="207.0" fitWidth="249.0" layoutX="642.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true" />
-      <Button fx:id="btnPonerEstilo" layoutX="210.0" layoutY="545.0" mnemonicParsing="false" onAction="#PonerEstilo" text="Poner Estilo" />
-      <Button fx:id="btnQuitarEstilo" layoutX="671.0" layoutY="545.0" mnemonicParsing="false" onAction="#QuitarEstilo" text="Quitar Estilo" />
+      <Button fx:id="btnPonerEstilo" layoutX="44.0" layoutY="545.0" mnemonicParsing="false" onAction="#PonerEstilo" text="Poner Estilo" />
+      <Button fx:id="btnQuitarEstilo" layoutX="810.0" layoutY="545.0" mnemonicParsing="false" onAction="#QuitarEstilo" text="Quitar Estilo" />
+      <Button fx:id="btnCalcular" layoutX="375.0" layoutY="545.0" mnemonicParsing="false" onAction="#Calcular" prefHeight="50.0" prefWidth="92.0" text="Calcular" />
+      <Button fx:id="btnComprar" layoutX="478.0" layoutY="545.0" mnemonicParsing="false" onAction="#Comprar" prefHeight="50.0" prefWidth="92.0" text="Comprar" />
    </children>
 </AnchorPane>

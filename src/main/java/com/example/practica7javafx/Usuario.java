@@ -6,12 +6,24 @@ public class Usuario {
     private int id;
     private String nombre;
     private String urlImagen;
+    private double credito;
 
+    public double getCredito() {
+        return credito;
+    }
 
-    public Usuario(int id, String nombre, String urlImagen) {
+    public void setCredito(double credito) {
+        this.credito = credito;
+    }
+
+    public Usuario(int id, String nombre, String urlImagen, double credito) {
         this.id = id;
         this.nombre = nombre;
         this.urlImagen = urlImagen;
+        this.credito=credito;
+    }
+
+    public Usuario() {
     }
 
     public int getId() {
